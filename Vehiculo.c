@@ -62,7 +62,7 @@ Vehiculo* generar_vehiculo_aleatorio() {
 
     int hora = rand() % 24;
     int minutos = rand() % 30; // Tiempo menor a 30 minutos
-    vehiculo->hora_militar = hora * 100 + minutos;
+    vehiculo->hora_militar = hora * 100 + minutos; 
 
     vehiculo->dia = rand() % 7;
 
