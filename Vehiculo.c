@@ -80,7 +80,7 @@ void imprimir_vehiculo(const Vehiculo* vehiculo) {
         return;
     }
 
-    printf("------------------------");
+    printf("------------------------\n");
     printf("Placa: %s\n", vehiculo->placa);
     printf("Tipo: %s\n", tipoVehiculosArreglo[vehiculo->tipo]);
     printf("Sentido: %s\n", vehiculo->sentido == 0 ? "Sur-Norte" : "Norte-Sur");

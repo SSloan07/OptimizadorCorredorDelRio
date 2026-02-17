@@ -16,5 +16,6 @@ typedef struct {
 Lista* crear_lista(void);
 void destruir_lista(Lista* lista);
 void insertar(Lista* lista, Vehiculo* vehiculo);
+void recorrer(Lista* lista);
 
 #endif

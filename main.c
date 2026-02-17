@@ -21,5 +21,8 @@ int main (){
     tiempo_total = (double)(fin - inicio) / CLOCKS_PER_SEC;
     printf("Tiempo de generacion: %f segundos\n", tiempo_total);
 
+    printf("Vamos a recorrer la lista para ver si si tiene elementos"); 
+    recorrer(lista);
+
     return 0; 
 }

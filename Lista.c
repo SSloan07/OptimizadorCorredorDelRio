@@ -44,3 +44,12 @@ void insertar(Lista* lista, Vehiculo* vehiculo){
     nuevo_nodo->siguiente = lista->cabeza; 
     lista->cabeza = nuevo_nodo;
 }
+
+void recorrer(Lista* lista){
+    Nodo* nodo_actual = lista->cabeza; 
+    
+    while(nodo_actual->siguiente != NULL){
+        imprimir_vehiculo(nodo_actual->vehiculo);
+        nodo_actual = nodo_actual->siguiente;
+    }
+}
